@@ -9,6 +9,10 @@ client.on('message', message => {
     if (message.content === 'hi') {
     	message.reply('hello there');
   	}
+client.on('message', message => {
+    if (message.content === 'how are you') {
+    	message.reply('I am great how about you?');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
