@@ -10,13 +10,6 @@ client.on('message', message => {
     	message.reply('hello there');
   	}
 });
-});
-
-client.on('message', message => {
-    if (message.content === 'how are you') {
-    	message.reply('im great how about you');
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
