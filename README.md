@@ -1,2 +1,2 @@
-# SuperChatBot
-It's was a Chat bot it Friendly
+# Good Bot
+just a nice bot
